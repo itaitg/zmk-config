@@ -23,5 +23,5 @@ include:
     shield: apiaster_wired rgbled_adapter
     artifact-name: apiaster-xiao-ble-studio
   - board: seeeduino_xiao_ble
-    shield: tester_apiaster_wired
+    shield: tester_xiao
 
