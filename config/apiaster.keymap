@@ -201,3 +201,6 @@
         };
     };
 };
+&kscan0 {
+    /delete-property/ interrupt-gpios;
+};
