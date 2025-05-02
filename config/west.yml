@@ -2,18 +2,22 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: munnich
+      url-base: https://github.com/Nick-Munnich
+    - name: caksoylar 
+      url-base: https://github.com/caksoylar
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
-    - name: munnich
-      url-base: https://github.com/nmunnich
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-apiaster-module
+    - name: zmk-component-rp2040-zero
       remote: munnich
       revision: main
-      import: config/west.yml
+    - name: zmk-rgbled-widget 
+      remote: caksoylar
+      revision: main
   self:
     path: config
