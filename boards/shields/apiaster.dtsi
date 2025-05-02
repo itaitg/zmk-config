@@ -22,7 +22,7 @@
             , <&xiao_d 5 GPIO_ACTIVE_HIGH>
             , <&xiao_d 6 GPIO_ACTIVE_HIGH>
             ;
-        interrupt-gpios = <&xiao_d 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+        interrupt-gpios = <&xiao_d 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 
     };
 
